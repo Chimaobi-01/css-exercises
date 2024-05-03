@@ -74,21 +74,15 @@ button.cancel {
   color: royalblue;
 }
 
-.wrapper1,
-.wrapper2 {
-  display: flex;
-}
-
-.wrapper1 {
-  flex-direction: column;
-  gap: 16px;
-}
-
-.wrapper2 {
-  justify-content: space-between;
-}
-
 .header {
-  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
   font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
